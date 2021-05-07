@@ -1,0 +1,38 @@
+.header{
+    background: rgb(8,46,106);
+    background: linear-gradient(90deg, rgba(8,46,106,1) 29%, rgba(8,100,106,1) 29%, rgba(9,121,121,1) 35%, rgba(7,142,152,1) 50%, rgba(0,212,255,1) 100%);
+    height: 150px;
+    color:white;
+    display: flex;
+    justify-content:space-evenly;
+    border:solid;
+    align-items: center;
+    
+}
+
+.header a{
+    color:white;
+    text-decoration:none;
+    
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited{
+    color:aqua;
+}
+
+a:link{
+    color:rgb(255, 255, 255);
+}
+
+.news{
+    display:flex;
+}
+
+img:hover{
+    opacity:0.7
+    
+}
